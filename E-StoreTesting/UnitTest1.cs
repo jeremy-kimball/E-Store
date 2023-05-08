@@ -1,9 +1,9 @@
 namespace E_StoreTesting
 {
-    public class UnitTest1
+    public class Inventory
     {
         [Fact]
-        public void Test1()
+        public void Inventory_Constructor_CreatesInventoryObject()
         {
 
         }
