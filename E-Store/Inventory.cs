@@ -10,10 +10,12 @@ namespace E_Store
     {
         //Lists for each item type
         public List<Guitar> Guitars;
+        public List<Bass> Basses;
 
         public Inventory()
         {
             Guitars = new List<Guitar>();
+            Basses = new List<Bass>();
         }
 
 
