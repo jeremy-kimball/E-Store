@@ -9,7 +9,7 @@ namespace E_Store
     public class Inventory
     {
         //Lists for each item type
-        List<Guitar> Guitars;
+        public List<Guitar> Guitars;
 
         public Inventory()
         {
