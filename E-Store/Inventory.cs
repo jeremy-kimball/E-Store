@@ -6,16 +6,24 @@ using System.Threading.Tasks;
 
 namespace E_Store
 {
-    //Lists for each item type
-
-
-
-
     public class Inventory
     {
+        //Lists for each item type
+        List<Guitar> Guitars;
 
+        public Inventory()
+        {
+            Guitars = new List<Guitar>();
+        }
+
+
+
+
+
+
+        //Method for listing all of an item type
     }
 
-    //Method for listing all of an item type
+
 
 }
