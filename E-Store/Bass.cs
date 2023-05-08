@@ -8,9 +8,9 @@ namespace E_Store
 {
     public class Bass
     {
-        string Brand;
-        int NumStrings;
-        string PickupType;
+        public string Brand;
+        public int NumStrings;
+        public string PickupType;
 
         public Bass(string brand, int numStrings, string pickupType)
         {

@@ -11,6 +11,7 @@ namespace E_StoreTesting
             Inventory eStore = new Inventory();
 
             Assert.Equal(new List<Guitar>(), eStore.Guitars);
+            Assert.Equal(new List<Bass>(), eStore.Basses);
         }
     }
 }
